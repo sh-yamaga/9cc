@@ -1,11 +1,11 @@
-name: c-compiler
+name: 9cc
 services:
-  c-compiler:
-    container_name: c-compiler
+  9cc:
+    container_name: 9cc
     build:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ../:/home/user
+      - ../:/home/user/9cc
     stdin_open: true
     tty: true

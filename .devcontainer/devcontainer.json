@@ -1,11 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/go
 {
-  "name": "c-compiler",
+  "name": "9cc",
 
   "dockerComposeFile": "./docker-compose.yml",
-  "service": "c-compiler",
-  "workspaceFolder": "/home/user",
+  "service": "9cc",
+  "workspaceFolder": "/home/user/9cc",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
