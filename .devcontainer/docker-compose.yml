@@ -1,0 +1,11 @@
+name: c-compiler
+services:
+  c-compiler:
+    container_name: c-compiler
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/home/user
+    stdin_open: true
+    tty: true
